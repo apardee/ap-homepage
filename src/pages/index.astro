@@ -13,35 +13,93 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	<body>
 		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
+			<table width="100%">
+				<tr class="content">
+					<td align="right">
+						<p>
+							[<a href="docs/apresume.pdf">PDF</a>]&nbsp;[<a href="docs/apresume.docx">DOC</a>]
+						</p>
+					</td>
+				</tr>
+			</table>
+			<h1>Anthony Pardee</h1>
+			<h3>Professional Experience</h3>
 			<p>
-				Welcome to the official <a href="https://astro.build/">Astro</a> blog starter template. This
-				template serves as a lightweight, minimally-styled starting point for anyone looking to build
-				a personal website, blog, or portfolio with Astro.
-			</p>
-			<p>
-				This template comes with a few integrations already configured in your
-				<code>astro.config.mjs</code> file. You can customize your setup with
-				<a href="https://astro.build/integrations">Astro Integrations</a> to add tools like Tailwind,
-				React, or Vue to your project.
-			</p>
-			<p>Here are a few ideas on how to get started with the template:</p>
+
+			<h4><a href="http://www.alltrails.com">AllTrails</a></h4>
+			<i>Staff iOS Engineer</i> &mdash; January 2023 - October 2024<br>
+			<i>Senior iOS Engineer</i> &mdash; May 2021 - January 2023<br>
+			Developed user facing features for the AllTrails iOS app as well as processes and tools for measuring and optimizing app performance.
 			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
+				<li>Worked in collaboration with the team's other engineers, product managers and designers to deliver app features including the integration of MapBox 3D maps into the app experience, building an updated user profile page, adding social graph features, updated trail cards, etc.
+				<li>Collaborated with server engineers on REST API contracts for new features and added support for code generated models in Swift from the resulting OpenAPI specs.
+				<li>Added support and documentation for monitoring app performance. Made targeted optimizations that reduced the memory footprint of the app in high use situations by 40% and reduced the typical total hang / hitch time experienced by users by 60%.
+				<li>Replaced image caching framework with a system adding performance improvements and supporting extensions like prefetching assets.
+				<li>Adopted a new OAuth compliant auth system for client security, including the addition of token refresh and migration paths from the legacy system.
 			</ul>
-			<p>
-				Have fun! If you get stuck, remember to
-				<a href="https://docs.astro.build/">read the docs</a>
-				or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+
+			<h4><a href="http://www.amazon.com">Amazon</a></h4>
+			<i>Software Development Engineer</i> &mdash; Prime Gaming July 2020 - May 2021<br>
+			Implemented customer ordering pipeline and technical design for virtual currency system.
+			<ul>
+				<li>Collaborated with teams across the org to write high-level technical architecture for a new virtual currency system and data migration to support it.
+				<li>Authored technical design and reference implementation of a digital content catalog system for Prime Gaming to allow product placement across Amazon surfaces.
+			</ul>
+
+			<i>Software Development Engineer</i> &mdash; AWS Direct Connect January 2020 - July 2020<br>
+			Developed data-plane monitoring services for the highly-available AWS Direct Connect Service
+			<ul>
+				<li>Designed, led, and contributed to the rollout of a new version of the AWS DirectConnect data-plane monitoring framework to handle Availability-Zone local probing and alarming.
+			</ul>
+
+			<i>Software Development Engineer</i> &mdash; May 2018 - Present<br>
+			Developed & maintained the primary backend services for the Amazon Relay for drivers mobile app, including integration with the broader set of services in the Amazon Transportation ecosystem.
+			<ul>
+				<li>Designed and implemented app-facing load management API's that extended the Amazon Relay app to support postal injection loads, scaling up to dozens of Amazon sort centers and facilitating the transit of tens of thousands of pallets / hundreds of thousands of packages nightly within the first year.
+				<li>Designed and developed a document hosting web service for Amazon Relay, including an image analysis process to detect & report errant uploads from drivers accounting for over $1M/yr in exposure to non-billable losses.
+			</ul>
+
+			<h4><a href="http://www.digitalcyclone.com">Garmin</a></h4>
+			<i>Senior Software Engineer</i> &mdash; February 2012 - May 2018<br>
+			Developed iOS apps and supporting libraries from early design to publication for Marine and Aviation segments.
+			<ul>
+				<li>Integrated the app client with web services and bluetooth devices, participating in the API design.</li>
+				<li>Collaborated on the definition of and implemented proprietary network protocols allowing apps to communicate on a local network with Garmin devices over Wifi and Bluetooth.</li>
+				<li>Created and maintained a video decoding library used across projects for remote video display in-app.</li>
+				<li>Optimized apps for performance and memory.</li>
+			</ul>
+
+			<h4><a href="http://www.vvisions.com">Vicarious Visions</a></h4>
+			<i>Software Engineer</i> &mdash; January 2006 - February 2012<br>
+			Developed handful of game titles spanning multiple platforms. Served as a generalist with varying degree of focus on animation technology, networking, cross-platform tech, and gameplay. Collaborated closely with artists, designers, and other programmers.
+			<ul>
+				<li>Implemented and maintained animation asset pipelines using in-house and off the shelf (Havok) runtimes.
+				<li>Developed patented animation technology used for composited character animation in Skylanders: Swap Force.
+				<li>Created web-based tools to allow content creators to instrument their level creations in order to establish budgets and optimize for performance and memory.
+				<li>Ported shared network and animation technology to new platforms.
+			</ul>
+
 			</p>
+			<h3>Published Software</h3>
 			<p>
-				Looking for a blog template with a bit more personality? Check out
-				<a href="https://github.com/Charca/astro-blog-template">astro-blog-template</a>
-				by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
+			Apps: <a href="https://itunes.apple.com/us/app/garmin-bluechart-mobile/id523635526">Bluechart Mobile</a>, 
+				<a href="https://itunes.apple.com/us/app/garmin-helm/id725757932">Garmin Helm</a>, 
+				<a href="https://itunes.apple.com/us/app/garmin-pilot/id340917615">Garmin Pilot</a>,
+				<a href="https://itunes.apple.com/us/app/verbalize/id807193900">Verbalize</a><br>
+			Games: Spiderman 3 PS2/PSP, Marvel Ultimate Alliance 2 XBox 360/PS3, Skylanders, Skylanders: Swap Force
+			</p>
+			<h3>Education</h3>
+			<p>
+			<a href="http://www.usm.edu">University of Southern Mississippi</a> &mdash; Hattiesburg, MS<br>
+			August 2002 - December 2005<br>
+			BS Computer Science &mdash; Mathematics Minor &mdash; 3.89 Cumulative GPA<br>
+			</p>
+			<h3>Relevant Skills</h3>
+			<p>
+			Languages: Objective-C, Swift, C/C++. Limited experience with R, SQL, Python.<br>
+			Familiar Frameworks / Technologies: RESTful web services, JSON, Cocoa Touch, Core Graphics, Core Data, Core Bluetooth, Metal / OpenGL, Reactive Cocoa, SQLite, etc.<br>
+			Platforms: Mac / iOS, PC, Xbox 360, PS3, 3DS.<br>
+			Tools: XCode, Interface Builder, Microsoft Visual Studio.
 			</p>
 		</main>
 		<Footer />
