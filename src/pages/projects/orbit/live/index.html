@@ -1,0 +1,17 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+	<head>
+		<title>orbit</title>
+		<script src="orbitGame.js"></script>
+		<link rel="stylesheet" type="text/css" href="orbitStyle.css" />
+	</head>
+	<body onload="GameEntry();">
+		<div id="gameContainer" style="font-family:Helvetica; align:center;">
+			<canvas id="gameTrail" width="500" height="500" style="opacity:1;"></canvas>
+			<canvas id="gameBackground" width="500" height="500" style="opacity:1;"></canvas>
+			<canvas id="gameBoard" width="500" height="500" style="opacity:0;"></canvas>
+			<div id="instructionsLabel1" class="gameLabel instructionsLabel" style="opacity:0; top:100px;">put a planet in orbit</div>
+			<div id="instructionsLabel2" class="gameLabel instructionsLabel" style="opacity:0; top:120px;">keep it there as long as you can</div>
+		</div>
+	</body>
+</html>

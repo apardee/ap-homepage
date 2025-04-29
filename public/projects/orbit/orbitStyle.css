@@ -1,0 +1,39 @@
+body {
+	margin-left:0px;
+	margin-top:0px;
+	background-color:#111111;
+}
+
+.gameLabel {
+	position:absolute;
+	left:0px;
+	color:#dddddd;
+	width:100%;
+	text-align:center;
+}
+
+.instructionsLabel {
+	font-family:HelveticaNeue;
+	font-size:20px;
+	height:20px;
+}
+
+#titleLabel {
+	top:0px;
+	font-size:80px;
+	font-family:Impact;
+}
+
+#gameBoard {
+	position:absolute;
+	border-width:2px;
+	border-color:white;
+}
+
+#gameBackground {
+	position:absolute;
+}
+
+#gameTrail {
+	position:absolute;
+}
