@@ -24,10 +24,12 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - name: Upload to S3
-        uses: shallwefootball/s3-upload-action@master
+      - name: Configure AWS CLI / Creds
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
-          aws_bucket: ${{ secrets.AWS_S3_BUCKET }}
-          source_dir: 'dist'
+          aws-access-key-id: ${{ secrets. AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets. AWS_SECRET_ACCESS_KEY }}
+
+      - name: Copy files to the s3 website content bucket
+        run:
+          aws s3 sync dist s3://${{ secrets.AWS_S3_BUCKET_NAME }}
