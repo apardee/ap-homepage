@@ -1,4 +1,4 @@
-![Build / Deploy](https://github.com/github/docs/actions/workflows/deploy-to-s3.yml/badge.svg)
+![Build / Deploy](https://github.com/apardee/ap-homepage/actions/workflows/deploy-to-s3.yml/badge.svg)
 
 # Anthony's Homepage
 
