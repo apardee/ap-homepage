@@ -1,7 +1,7 @@
 ---
 title: 'WebGL Skinned Animation'
 description: '3D Animation'
-pubDate: 'Jan 01 2012'
+pubDate: 'Mar 15 2012'
 heroImage: '/skinnedAnim.jpg'
 ---
 
