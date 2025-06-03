@@ -1,7 +1,7 @@
 ---
 title: 'Verbalize'
 description: 'Speech assistant iOS app'
-pubDate: 'Jan 1 2015'
+pubDate: 'Feb 2 2015'
 heroImage: '/verbalize.jpg'
 ---
 

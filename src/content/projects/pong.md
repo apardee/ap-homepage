@@ -1,7 +1,7 @@
 ---
 title: 'Pong'
 description: 'Web-based Pong'
-pubDate: 'Jan 1 2017'
+pubDate: 'Oct 21 2017'
 heroImage: '/pong.jpg'
 ---
 
